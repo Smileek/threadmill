@@ -1,0 +1,21 @@
+{
+  "name": "threadmill",
+  "version": "0.1.0",
+  "description": "A simple Slack bot that uses OpenAI's GPT to generate daily thread starters",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.7.0",
+    "dotenv": "^16.5.0",
+    "fastify": "^3.27.4",
+    "fastify-formbody": "^5.2.0",
+    "fastify-static": "^4.5.0",
+    "openai": "^3.3.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT"
+}
